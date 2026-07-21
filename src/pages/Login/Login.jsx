@@ -88,6 +88,9 @@ const Login = () => {
         <p className="mt-24 text-muted" style={{ textAlign: "center" }}>
           Don't have an account? <Link to="/register" style={{ color: "var(--color-primary)", fontWeight: 600 }}>Register</Link>
         </p>
+        <p className="mt-8 text-muted" style={{ textAlign: "center", fontSize: "0.8rem" }}>
+          Admin demo: admin@example.com / Admin@123
+        </p>
       </div>
     </div>
   );
